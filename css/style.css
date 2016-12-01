@@ -452,7 +452,15 @@ and (max-width : 1199px) {
 
 .portfolio-item {
     position: relative;
-    margin-bottom: 30px;
+    height: 367px;
+    width: 367px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    width: 367px;
+    height: 367px;
 }
 
 .portfolio-item .portfolio-details {
