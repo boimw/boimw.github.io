@@ -51,7 +51,9 @@ body {
 }
 
 a,
-a:hover,
+a:hover {
+    color: yellow;
+    },
 a:focus,
 a:active,
 a.active {
@@ -190,6 +192,9 @@ fieldset[disabled] .btn-primary.active {
     background: #FA6900;
 }
 
+.purple {
+    background: #d833ed;
+}
 .color {
     background: #0ECEAB;
 }
