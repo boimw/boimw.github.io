@@ -158,10 +158,10 @@ fieldset[disabled] .btn-primary.active {
     
 }
 
-.logo h1 {
+.logo h2 {
     font-family: 'Lobster', cursive;
     color: #fff;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .logo span {
@@ -307,8 +307,8 @@ and (max-width : 1199px) {
 .copyright {
     background: rgba( 0, 0, 200, 0.2);
     color: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
