@@ -305,7 +305,7 @@ and (max-width : 1199px) {
 
 
 .copyright {
-    background: rgba( 0, 0, 200, 0.2);
+    background: rgba( 0, 0, 200, 0.4);
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -504,6 +504,7 @@ and (max-width : 1199px) {
 }
 .about-text p {
     color: #777;
+    font-size: 20px;
     text-align: justify;
 }
 .about-text ul {
