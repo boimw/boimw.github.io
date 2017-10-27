@@ -1717,6 +1717,17 @@
 				height: 48px;
 			}
 
+		.image.avatar92 {
+			width: 82px;
+			height: 82px;
+			background: #f00;
+		}
+
+			.image.avatar92 img {
+				width: 82px;
+				height: 82px;
+			}
+
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -2037,7 +2048,7 @@
 
 	#logo {
 		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
+		margin: 1.75em 0.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
 	}
