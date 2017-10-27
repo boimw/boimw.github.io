@@ -181,20 +181,11 @@
 							You just want to say "Hi!"<br>
 							THEN: Please use the contract form below to get in touch with me. <br/>
 							AND: I'll respond as soon as I can. <br>Thanks!</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="12u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
+				
+							<div class="12u$">
+								<input type="submit" value="Send Message" onclick="redirectTo()" />
+							</div>
+							
 						</div>
 					</section>
 
@@ -218,6 +209,11 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+				function redirectTo() {
+					    window.location.href = "mailto:marjanovic93@gmail.org";
+				}
+			</script>
 
 	</body>
 </html>
